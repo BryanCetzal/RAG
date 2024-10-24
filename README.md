@@ -23,5 +23,15 @@ Mejorar la atención al cliente utilizando una base de conocimientos, scraping d
 # Pendiente XD
 ```
 
+## Puntos de Mejora
+
+1. **Interfaz de Usuario**: Desarrollar una interfaz gráfica de usuario (GUI) para facilitar la interacción con el sistema RAG y hacerlo más accesible a usuarios no técnicos.
+2. **Actualización Constante del Scraper**: Mantener y mejorar continuamente el scraper para asegurar que la información extraída sea siempre la más relevante y actualizada.
+3. **Mejor Modelo de Lenguaje (LLM)**: Evaluar y actualizar el modelo de lenguaje natural a las versiones más avanzadas disponibles para mejorar la precisión y coherencia de las respuestas generadas.
+4. **Optimización de Embeddings**: Mejorar los algoritmos y técnicas de embeddings para aumentar la eficiencia y precisión en la recuperación de información.
+5. **Integración con Más Fuentes de Datos**: Expandir la capacidad de scraping para incluir una mayor variedad de fuentes de datos, mejorando así la amplitud y profundidad del conocimiento disponible.
+6. **Automatización de Mantenimiento**: Implementar procesos automáticos para la actualización y mantenimiento del sistema, reduciendo la necesidad de intervención manual.
+7. **Seguridad y Privacidad**: Fortalecer las medidas de seguridad y privacidad para proteger los datos de los usuarios y la integridad del sistema.
+
 ## Contribuciones
 Si deseas contribuir a este proyecto, por favor realiza un fork y envía un pull request.
