@@ -17,6 +17,9 @@ Mejorar la atención al cliente utilizando una base de conocimientos, scraping d
 - Mejora en la satisfacción del cliente.
 - Reducción del tiempo de respuesta.
 
+## Estructura general 
+!()[]
+
 ## Ejemplo
 ```python
 # Código de ejemplo para implementar RAG
