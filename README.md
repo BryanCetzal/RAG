@@ -18,7 +18,7 @@ Mejorar la atención al cliente utilizando una base de conocimientos, scraping d
 - Reducción del tiempo de respuesta.
 
 ## Estructura general 
-!()[]
+![](image.png)
 
 ## Ejemplo
 ```python
