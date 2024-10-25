@@ -35,6 +35,3 @@ Mejorar la atención al cliente utilizando una base de conocimientos, scraping d
 5. **Integración con Más Fuentes de Datos**: Expandir la capacidad de scraping para incluir una mayor variedad de fuentes de datos, mejorando así la amplitud y profundidad del conocimiento disponible.
 6. **Automatización de Mantenimiento**: Implementar procesos automáticos para la actualización y mantenimiento del sistema, reduciendo la necesidad de intervención manual.
 7. **Seguridad y Privacidad**: Fortalecer las medidas de seguridad y privacidad para proteger los datos de los usuarios y la integridad del sistema.
-
-## Contribuciones
-Si deseas contribuir a este proyecto, por favor realiza un fork y envía un pull request.
