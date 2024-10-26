@@ -62,7 +62,7 @@ def extraer_datos_articulo(soup, enlace_completo):
         for enlace in soup.find_all('a', href=True):
             url_enlace = requests.compat.urljoin(enlace_completo, enlace['href'])
             print(f"Procesando enlace: {url_enlace}")
-            if "soporte" in url_enlace:  # Asumiendo que "soporte" identifica los enlaces internos
+            if "soporte" in url_enlace: 
                 enlaces_internos.append(url_enlace)
             else:
                 enlaces_externos.append(url_enlace)
@@ -89,7 +89,7 @@ def ScraperPrincipal(url, headers, carpeta_base):
             # Extraer el contenido del artículo
             texto, fecha, categoria, videos, imagenes, listas, enlaces_internos, enlaces_externos = ExtraerContenidoArticulo(enlace_completo, headers)
 
-            # Guardar el contenido en un archivo .txt con el título en la carpeta 'Base de conocimiento'
+            # Guardar el contenido en un archivos .txt
             if texto:
                 nombre_archivo = f"{titulo}.txt"
                 nombre_archivo = "".join([c for c in nombre_archivo if c.isalpha() or c.isdigit() or c in (' ', '.', '_')]).rstrip()  # Limpiar el nombre del archivo
@@ -146,7 +146,7 @@ def ScraperPrincipal(url, headers, carpeta_base):
         print(f"Error en ScraperPrincipal: {e}")
 
 # URL principal desde donde comienzas a extraer las carpetas
-url_principal = "https://soporte.nasa.com.mx/support/home"  # Modifica esta URL si necesitas una más general
+url_principal = "https://soporte.nasa.com.mx/support/home" 
 headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
 }
